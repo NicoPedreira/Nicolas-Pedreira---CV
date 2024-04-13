@@ -3,7 +3,7 @@
 
 body{
 	display: flex;
-	flex-direction: column;
+	flex-direction: column; /*el body completo tiene un margin de 8px que viene por default aplicado, como resultado de diseño final no se ve tan bien*/
 }
 header{
 	padding-top: 50px;
@@ -17,7 +17,7 @@ header{
 }
 main{
 	display: flex;
-	align-items: flex-start;
+	align-items: flex-start; /*esta propiedad no hace nada*/
 	justify-content: center;
 	padding-top: 30px;
 	padding-bottom: 50px;
@@ -88,14 +88,14 @@ a:hover{
 .izquierda{
 	width: 40%;
 	padding-left: 50px;
-	padding-right: 8%;
+	padding-right: 8%; /*en lugar de usar paddings para separar los elementos es más prolijo utilizar la progpiedad gap en el padre, o sea main. esta propiedad se utiliza con cualquier valor pero con px va bien, por ejemplo gap: 20px; */
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
 }
 .derecha{
 	width: 40%;
-	padding-left: 8%;
+	padding-left: 8%; /*esto igual que lo anterior*/
 	padding-right: 50px;
 	box-sizing: border-box;
 	display: flex;
