@@ -9,10 +9,10 @@ body{
 header{
 	padding-top: 50px;
 	width: 100%;
-	height: 570px;
-	background-image: url("img/background1.svg");
-	background-repeat: no-repeat;
-	background-size: 120% auto;
+	height: 570px; /*esta propiedad no está haciendo nada*/
+	background-image: url("img/background1.svg"); /*que la imagen de fondo sea del mismo tamaño que la caja*/
+	background-repeat: no-repeat; /*al ser una img tan grande no hace falta aplicar esto porque nunca tiene la oportunidad de repetirse*/
+	background-size: 120% auto; /*si hay que hacerle zoom algo anda mal, eso tiene que estar configurado desde el archivo*/
 	text-align: center;
 	background-attachment: fixed;
 }
@@ -21,13 +21,13 @@ main{
 	justify-content: center;
 	padding-top: 30px;
 	padding-bottom: 50px;
-	background-image:url("img/fondo_1.svg");
+	background-image:url("img/fondo_1.svg"); /*mismos problemas que el bg del head*/
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 h1 {
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Josefin Sans", sans-serif; /*si esta va a serla tipo principal estaría bueno ahorrarte líneas y establecerla desde el body*/
 	font-size: 60px;
 	color:white;
 }
@@ -56,7 +56,7 @@ footer{
 	height: 250px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-around; /*esta propiedad no hace nada*/
 	background-image: url("img/backgroundfooter_1.svg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -64,13 +64,13 @@ footer{
 	align-items:center;
 }
 .footerpics{
-	width: 19%;
+	width: 19%; /*dudoso, fijate si podés buscar otra forma, como un max-width + porcentaje*/
 	display: flex;
-	flex-direction: row;
+	flex-direction: row; /*esta propiedad no hace nada*/
 	justify-content: space-between;
 	align-items: center;
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 5px; /*hay formas de escribir los paddings en una sola línea*/
 }
 a{
 	color:black;
@@ -82,8 +82,8 @@ a:hover{
 }
 .izquierda{
 	width: 40%;
-	padding-left: 5%;
-	padding-right: 8%;
+	padding-left: 5%; /*los paddings sí van en px, todo porcentaje menor a 20% te va a complicar cuando veamos mobile*/
+	padding-right: 8%; /*si los paddings son para separar las cajas una mejor opción es aplicar un gap en el padre*/
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
@@ -95,8 +95,8 @@ a:hover{
 	padding-right: 5%;
 	box-sizing: border-box;
 	display: flex;
-	flex-direction:column;
-	justify-content: space-between;
+	flex-direction:column; /*esta propiedad no hace nada*/
+	justify-content: space-between; /*esta propiedad no hace nada*/
 	flex-wrap: wrap;
 	
 }
