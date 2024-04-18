@@ -9,21 +9,17 @@ body{
 header{
 	padding-top: 50px;
 	width: 100%;
-	height: 570px;
 	background-image: url("img/background1.svg");
-	background-repeat: no-repeat;
-	background-size: 120% auto;
+	background-size: cover;
 	text-align: center;
 	background-attachment: fixed;
 }
 main{
 	display: flex;
 	justify-content: center;
-	padding-top: 30px;
-	padding-bottom: 50px;
+	padding:30px 0px 50px 0px;
 	background-image:url("img/fondo_1.svg");
 	background-attachment: fixed;
-	background-repeat: no-repeat;
 	background-size: cover;
 }
 h1 {
@@ -38,39 +34,35 @@ h2{
 }
 h3{
 	color: white;
-	text-decoration: underline;
+	font-size: 25px;
 }
 h3, h4{
 	font-family: "Josefin Sans", sans-serif;
-	font-size: 22px;
+	font-variant-caps:small-caps;
 }
 h4{
-	text-decoration: underline;
+	font-size: 20px;
 }
 p, li{
 	font-family: "Archivo", sans-serif;
 	font-size: 18px;
 }
 footer{
-	padding: 20px;
+	padding: 5px;
 	height: 250px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
 	background-image: url("img/backgroundfooter_1.svg");
 	background-attachment: fixed;
-	background-repeat: no-repeat;
 	background-size: cover;
 	align-items:center;
 }
 .footerpics{
 	width: 19%;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding:5px 0px 5px 0px;
 }
 a{
 	color:black;
@@ -94,11 +86,6 @@ a:hover{
 	padding-left: 8%;
 	padding-right: 5%;
 	box-sizing: border-box;
-	display: flex;
-	flex-direction:column;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	
 }
 .misredes{
 	width: 250px;
