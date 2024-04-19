@@ -7,4 +7,4 @@
 <p>El main está dividido en distintas sections, cada una dedicada a un tipo de información específica.</p>
 <p>El footer, por su parte, contiene el acceso a distintos sitios, más que nada formativos de mi educación, así como algunos contactos.</p>
 <p>Para la elaboración del TP elegí solamente dos fuentes desde google fonts y busqué la jerarquización combinando distintos estilos y colores de fuente, cada uno específicamente utilizado para un propósito específico.</p>
-<p>El editor de código utilizado fue Dreamweaver y el tamaño de pantalla trabajado 1360x768px.</p>
+<p>El editor de código utilizado fue Dreamweaver y el tamaño de pantalla trabajado 1360x768px. En el zip de entrega se deja constancia de las capturas de pantalla tanto en pantalla completa como las distintas vistas con scroll hacia abajo y el favicon visible.</p>
